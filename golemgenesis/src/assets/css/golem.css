@@ -1,0 +1,22 @@
+#navbar{
+    background-image: url(../images/CutterMidasSidecover.png);
+    height: 100vh;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-content: left;
+    justify-content: space-around;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    transform: scale(1);
+    transition: transform 0.7s ease;
+    text-shadow: 1px 1px black;
+    float: left;
+    left: 0;
+}
+
+#navbar ul{
+    align-content: 200px;
+    left: 200px;
+}
