@@ -1,22 +1,56 @@
+.App{
+    background-image: url(../images/golemcollage.JPG);
+    background-size: 250vh;
+    background-repeat: no-repeat;
+    height: 1500px;
+}
+
+#home{
+    background-image: url(../images/golemcollage.JPG);
+    background-size: cover;
+}
+
+#golem{
+  background-image: url(../images/golemcollage.JPG);
+  background-size: cover;
+}
+  #comics{
+    background-image: url(../images/golemcollage.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+  }
+    #social{
+        background-image: url(../images/golemcollage.JPG);
+        background-size: 100vh;
+}
+
+
 #navbar{
+    margin-left: auto;
     background-image: url(../images/CutterMidasSidecover.png);
     height: 100vh;
     background-size: 100px;
     background-repeat: no-repeat;
-    width: 100%;
-    align-content: left;
-    justify-content: space-around;
-    background-color: white;
-    list-style: none;
-    display: flex;
-    transform: scale(1);
-    transition: transform 0.7s ease;
-    text-shadow: 1px 1px black;
-    float: left;
-    left: 0;
-}
-
-#navbar ul{
-    align-content: 200px;
-    left: 200px;
-}
+    width: fit-content;
+    justify-content: left;
+                            /* width: 100%; */
+                            align-content: left;
+                            justify-content: space-evenly;
+                            /* background-color: white; */
+                            list-style: none;
+                            display: flex;
+                            transform: scale(1);
+                            transition: transform 0.7s ease;
+                            text-shadow: 1px 1px black;
+                            left: 0;
+                            font-size: 28px;
+                            box-shadow: 2px 2px black;
+                            
+                        }
+                    #navbar li:hover {
+                        transition: ease 0.7s;
+                        color:white;
+                        text-shadow: 2px 2px black;
+                        font-size: 38px;
+                    }

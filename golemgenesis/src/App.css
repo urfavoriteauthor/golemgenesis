@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+
+  background-image: url(./assets/images/golemcollage.JPG);
+  background-size: cover;
 }
 
 .App-logo {
@@ -22,6 +24,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+h1{
+  color: blue;
 }
 
 .App-link {

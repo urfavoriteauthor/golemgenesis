@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/golem.css'
 import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
 import Navbar from './components/navbar'
 import Home from './pages/home'
@@ -13,7 +12,7 @@ function App() {
     <div className="App">
   <Router>
     <Switch>
-       <Navbar/>
+      <Navbar/>
             <Route exact path='/'component={Home} />
             <Route path='/golems' component={Golems} />
             <Route path='/comicbooks' component={Comicbooks} />
@@ -21,7 +20,6 @@ function App() {
             
                 
       
-    <Link to='/home'><a href={Home} id='mainBtn' target='_blank' className='btn btn-light btn-lng btn-block'>ENTER HERE!</a></Link>
     </Switch>
     
 </Router>

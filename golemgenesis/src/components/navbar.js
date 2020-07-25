@@ -7,7 +7,7 @@ class Navbar extends React.Component{
     render(){
         return(
 <nav>
-                 <ul className='nav flex-column' id='navbar'>
+                 <ul className='nav flex-column ml-auto' id='navbar'>
               
             <Link to='/'>
                 <li className="nav-item">Home</li>
@@ -16,7 +16,7 @@ class Navbar extends React.Component{
                 <li className="nav-item">Golems</li>
             </Link>
             <Link to='/comicbooks'>
-                <li className="nav-item">Comic Books</li>
+                <li className="nav-item">Comics</li>
             </Link>
             <Link to='/social'>
                 <li className="nav-item">Social</li>
