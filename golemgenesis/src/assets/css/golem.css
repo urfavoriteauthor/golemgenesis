@@ -1,56 +1,108 @@
-.App{
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 38px;
+    color: white;
     background-image: url(../images/golemcollage.JPG);
     background-size: 250vh;
-    background-repeat: no-repeat;
-    height: 1500px;
+    background-repeat: repeat;
+    height: 1600px;
 }
 
-#home{
-    background-image: url(../images/golemcollage.JPG);
-    background-size: cover;
+p {
+    font-size: 100px;
+color: sienna;
+border: 2px;
+text-shadow: 2px 2px black;
+
 }
 
-#golem{
-  background-image: url(../images/golemcollage.JPG);
-  background-size: cover;
+p:hover{
+    transition: ease 0.7s;
+    font-size: 130px;
+    text-shadow: 4px 4px black;
+    border: 2px;
+    color: brown;
 }
-  #comics{
-    background-image: url(../images/golemcollage.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200vh;
-  }
-    #social{
-        background-image: url(../images/golemcollage.JPG);
-        background-size: 100vh;
+
+#home {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+
+#golem {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+#comics {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 38px;
+    color: chocolate;
+}
+
+#social {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 38px;
+color: chocolate;
 }
 
 
-#navbar{
+#navbar {
     margin-left: auto;
     background-image: url(../images/CutterMidasSidecover.png);
+    font-family: 'Bangers', cursive;
     height: 100vh;
     background-size: 100px;
     background-repeat: no-repeat;
     width: fit-content;
+    float: left;
     justify-content: left;
-                            /* width: 100%; */
-                            align-content: left;
-                            justify-content: space-evenly;
-                            /* background-color: white; */
-                            list-style: none;
-                            display: flex;
-                            transform: scale(1);
-                            transition: transform 0.7s ease;
-                            text-shadow: 1px 1px black;
-                            left: 0;
-                            font-size: 28px;
-                            box-shadow: 2px 2px black;
-                            
-                        }
-                    #navbar li:hover {
-                        transition: ease 0.7s;
-                        color:white;
-                        text-shadow: 2px 2px black;
-                        font-size: 38px;
-                    }
+    /* width: 100%; */
+    align-content: left;
+    justify-content: space-evenly;
+    /* background-color: white; */
+    list-style: none;
+    display: flex;
+    transform: scale(1);
+    transition: transform 0.7s ease;
+    text-shadow: 1px 1px black;
+    left: 0;
+    font-size: 28px;
+    overflow: hidden;
+    /* border: 50px 50px 50px 50px; */
+    /* margin: 0 auto; */
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+    position: fixed;
+
+}
+
+#navbar li:hover {
+    transition: ease 0.7s;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 36px;
+    width: fit-content;
+}
+
+#slideOne{
+display: flex;
+background-color: black;
+text-shadow: 2px 2px white;
+color: sienna;
+font-family: 'Poiret One', cursive;
+text-align: left;
+}
+

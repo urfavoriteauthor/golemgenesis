@@ -5,8 +5,8 @@ class Comicbooks extends React.Component{
     render(){
         return(
             <div id='comics'> 
-                <h1>Comic Books</h1>
-
+            <Navbar/>
+                <p>Comic Books</p>
             </div>
         )
     }

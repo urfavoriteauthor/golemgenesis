@@ -1,14 +1,13 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import '../assets/css/golem.css'
-
+import Navbar from '../components/navbar'
 
 class Home extends React.Component{
     render(){
         return(
             <div id='home'>
-                {/* <Navbar/> */}
-                <h1>Home</h1>
+                <Navbar/>
+                <p>Home</p>
             </div>
         )
     }
