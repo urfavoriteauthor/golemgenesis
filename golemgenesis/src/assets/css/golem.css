@@ -15,13 +15,13 @@ body {
 
 p {
     font-size: 100px;
-color: sienna;
-border: 2px;
-text-shadow: 2px 2px black;
+    color: sienna;
+    border: 2px;
+    text-shadow: 2px 2px black;
 
 }
 
-p:hover{
+p:hover {
     transition: ease 0.7s;
     font-size: 130px;
     text-shadow: 4px 4px black;
@@ -56,7 +56,7 @@ p:hover{
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 38px;
-color: chocolate;
+    color: chocolate;
 }
 
 
@@ -97,13 +97,41 @@ color: chocolate;
     width: fit-content;
 }
 
-#slideOne{
-display: flex;
-background-color: black;
-text-shadow: 2px 2px white;
-color: sienna;
-font-family: 'Poiret One', cursive;
-text-align: left;
-box-shadow: 5px black;
+#slideOne {
+    display: flex;
+    background-color: black;
+    text-shadow: 2px 2px white;
+    color: sienna;
+    font-family: 'Poiret One', cursive;
+    text-align: left;
+    box-shadow: 5px black;
 }
 
+#comics {
+    width: 25rem;
+    padding: 1rem !important;
+
+}
+
+#comics:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.container-fluid .row {
+    padding-top: 6rem;
+    margin: 0 auto;
+}
