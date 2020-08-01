@@ -29,6 +29,13 @@ p:hover {
     color: brown;
 }
 
+h5{
+    text-shadow: 2px 2px black;
+    color: saddlebrown;
+    font-family: 'Poiret One', cursive;
+    text-align: left;   
+}
+
 #home {
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -43,6 +50,7 @@ p:hover {
     color: white;
     justify-content: center;
     align-content: center;
+    outline: black;
 }
 
 #comics {
@@ -61,6 +69,8 @@ p:hover {
 
 
 #navbar {
+    position: fixed;
+    color: saddlebrown;
     margin-left: auto;
     background-image: url(../images/CutterMidasSidecover.png);
     font-family: 'Bangers', cursive;
@@ -72,31 +82,37 @@ p:hover {
     justify-content: left;
     /* width: 100%; */
     align-content: left;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     /* background-color: white; */
+    padding: 25px;
     list-style: none;
     display: flex;
     transform: scale(1);
     transition: transform 0.7s ease;
     text-shadow: 1px 1px black;
     left: 0;
-    font-size: 28px;
-    overflow: hidden;
+    font-size: 26px;
+    justify-content: space-evenly;
+  
+    /* overflow: hidden; */
     /* border: 50px 50px 50px 50px; */
     /* margin: 0 auto; */
-    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
-    position: fixed;
+    /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important; */
 
 }
 
 #navbar li:hover {
     transition: ease 0.7s;
-    color: white;
+    color: saddlebrown;
     text-shadow: 2px 2px black;
-    font-size: 36px;
-    width: fit-content;
+    font-size: 32px;
+    
+    
 }
 
+#slider{
+    width: 80%;
+}
 #slideOne {
     display: flex;
     background-color: black;

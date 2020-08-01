@@ -9,8 +9,8 @@ const Comics = props => {
             </div>
             <div className='card-body bg-dark text-light'>
                 <h4 className='card-title'>{props.title}</h4>
-                <p className="card-text text-light">{props.description}</p>
-            <a href={props.link} target="_blank" className='btn btn-outline-danger'>Purchase Here</a>
+                <h5 className="card-text text-light">{props.description}</h5>
+            <a href={props.link} target="_blank" className='btn btn-outline-light'>Purchase Here</a>
             </div>
         </div>
     )
