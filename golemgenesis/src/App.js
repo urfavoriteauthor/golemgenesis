@@ -14,7 +14,7 @@ function App() {
     <div>
   <Router>
     <Switch>      
-
+{/* <Navbar/> */}
             <Route exact path='/'component={Home} />
             <Route path='/golems' component={Golems} />
             <Route path='/comicbooks' component={Comicbooks} />

@@ -8,16 +8,16 @@ import Slideshow from '../components/slideshow'
 class Golems extends React.Component{
     render(){
         return(
-            <div id='golem'>
+            <div>
                 <Navbar/>
-                <p>Golems</p>
-                {/* Carousel */}
-                <Slideshow/>
-                <div>
+            <div id='golem'>
 
+                <p>Golems</p>
+                <Slideshow/>
                 </div>
+</div>
+
                 
-            </div>
         )
     }
 }

@@ -13,7 +13,7 @@ import Avalanche from '../assets/images/avalance.JPG'
 import Pacifica from '../assets/images/Pacifica.png'
 import Quartz from '../assets/images/SophiaQ.PNG'
 import Raijin from '../assets/images/Raijin.jpg'
-import { render } from 'react-dom'
+import Navbar from './navbar'
 
 class Slideshow extends React.Component{
     constructor(props) {
@@ -37,18 +37,16 @@ class Slideshow extends React.Component{
          slidesToShow: 1,
          slidesToScroll: 1,
          dotsClass: "slick-dots slick-thumb",
-         centerMode:true,
-         centerPadding: "275px",
+         centerPadding: "380px",
          focusOnSelect: true,
          useCss: true,
          slide: "div",
-         autoPlay: true,
-         autoPlaySpeed: 3000
-         // adaptiveHeight: true,
+        //  adaptiveHeight: true,
         }
+        return(
 
-          return(
               <div className='slider'>
+                  {/* <Navbar/> */}
             <Slider ref={c => (this.slider = c)} {...settings} id='slider'>
 <div id='slideOne'>
     <img src={Cutter} width='800px'/>
