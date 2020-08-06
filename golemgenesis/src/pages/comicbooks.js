@@ -13,6 +13,7 @@ class Comicbooks extends React.Component{
             <div className='row'>
                 <header>
                 <p id='comictitle'>Comic Books</p>
+                <h4 style={{color:"white"}}>Check Out our Comic Books!</h4>
                 </header>
                 <div id='comics'> 
                     <div className='col-sm-4'>
