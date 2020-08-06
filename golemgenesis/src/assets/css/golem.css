@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
 
 body {
     font-family: 'Bangers', cursive;
@@ -36,6 +37,14 @@ p:hover {
 text-align: center;
  padding-left: 300px;
  padding-top: -100px;
+}
+
+h1{
+    text-shadow: 2px 2px white;
+}
+h4{
+    text-shadow: 2px 2px black;
+    font-family: 'Raleway', sans-serif;
 }
 
 h5{
@@ -80,6 +89,12 @@ h5{
     color: chocolate;
 }
 
+#featured{
+    overflow:hidden;
+    color: white;
+    width: unset;
+    margin: 200px;
+}
 
 #navbar {
     position: fixed;
@@ -145,6 +160,8 @@ overflow: hidden;
     justify-content: space-evenly;
     min-height: auto;
     align-items: center;
+    /* width: 25rem; */
+    height: 58rem;
 }
 
 #comics:hover {
@@ -156,10 +173,10 @@ overflow: hidden;
     overflow: hidden;
 }
 
-.card{
+/* .card{
     width: 25rem;
-    height: 58rem;
-}
+    height: 62rem;
+} */
 .card-img-top {
     transform: scale(1);
     transition: transform 0.5s ease;
