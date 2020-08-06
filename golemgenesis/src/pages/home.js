@@ -8,7 +8,7 @@ class Home extends React.Component{
         return(
             <div id='home'>
                 <Navbar/>
-                <p>Home</p>
+                <p>Welcome to Terra!</p>
                 <About/>
             </div>
         )

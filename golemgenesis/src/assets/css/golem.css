@@ -45,13 +45,19 @@ h1{
 h4{
     text-shadow: 2px 2px black;
     font-family: 'Raleway', sans-serif;
+
+}
+
+#comicsubtitle{
+
+    padding-left: 400px;
+
 }
 
 h5{
     text-shadow: 2px 2px black;
     color: saddlebrown;
     font-family: 'Poiret One', cursive;
-    text-align: left;   
 }
 
 #home {
@@ -266,6 +272,7 @@ overflow: hidden;
     align-items: center;
     /* width: 25rem; */
     height: 58rem;
+    text-align: center;
 }
 
 #comics:hover {

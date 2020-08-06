@@ -11,10 +11,10 @@ class Comicbooks extends React.Component{
             <div  className="container-fluid d-flex content-justify-center">
             <Navbar/>
             <div className='row'>
-                <header>
+<div>           
                 <p id='comictitle'>Comic Books</p>
-                <h4 style={{color:"white"}}>Check Out our Comic Books!</h4>
-                </header>
+    <h4 id='comicsubtitle' style={{color:"white"}}>Check Out our Comic Books!</h4>
+</div>     
                 <div id='comics'> 
                     <div className='col-sm-4'>
                     <Comics imgsrc={Cover} title='Golem Genesis: Issue#1 Rocky Beginnings' 
