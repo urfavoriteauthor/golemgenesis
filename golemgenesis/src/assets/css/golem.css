@@ -306,3 +306,123 @@ overflow: hidden;
     padding: 100px;
 }
 
+@media only screen and (max-width:600px){
+    p{
+       font-size:50px; 
+       margin-left: 100px;
+    }
+    p:hover{
+        transition: ease 0.7s;
+    font-size: 60px;
+    text-shadow: 4px 4px black;
+    border: 2px;
+    color: brown;
+    }
+
+    body {
+        font-family: 'Bangers', cursive;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-image: url(../images/golemcollage.JPG);
+        background-size: 100vh;
+        background-repeat: repeat;
+        height: 1600px;
+    }
+#featured{
+    width: auto;
+}
+
+#featured:hover{
+margin:100px;
+}
+
+    #comictitle{
+        font-family: 'Bangers', cursive;
+       text-align: center;
+padding-left: 0;
+margin-right: 80px;
+       }
+       h4{
+display: none;
+}
+
+
+       #featured{
+        overflow:hidden;
+        color: white;
+        width: unset;
+        margin: 20px;
+        border: 5px 5px 5px 5px;
+        transform: scale(0.7);
+        transition: transform 0.5s ease;
+    
+    }
+
+    #featured:hover{
+        box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.253) !important;
+        transform: scale(1);
+        transition: transform 0.5s ease;
+}
+#comics {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    min-height: auto;
+    align-items: center;
+    /* width: 25rem; */
+    height: 58rem;
+    text-align: center;
+}
+.card-img-top {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.container-fluid .row {
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.row{
+    padding: 50px;
+}
+#slider{
+    width: 40%;
+overflow: hidden;
+}
+#slideOne {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    text-shadow: 2px 2px white;
+    color: sienna;
+    font-family: 'Poiret One', cursive;
+    text-align: left;
+    overflow: hidden;
+}
+.social{
+    width: 100%;
+}
+.social li{
+    font-size: 10px;
+}
+.social img{
+    width: 20px;
+}
+
+#social img{
+    width: 50%;
+}
+
+#comics{
+display: inline;
+padding: 25px;
+
+}
+}
