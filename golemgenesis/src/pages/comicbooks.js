@@ -15,7 +15,7 @@ class Comicbooks extends React.Component{
                 <p id='comictitle'>Comic Books</p>
     <h4 id='comicsubtitle' style={{color:"white"}}>Check Out our Comic Books!</h4>
 </div>     
-                <div id='comics'> 
+                <div id='comicbookss'> 
                     <div className='col-sm-4'>
                     <Comics imgsrc={Cover} title='Golem Genesis: Issue#1 Rocky Beginnings' 
                 description='Chris Carter while on his way home stumbles across a HeartStone. After being chased by a bully and his golem Everest, he stumbles upon a Golem hidden in a cave below ground. Now, in his first Golem Battle ever, Chris and his new ally must find a way to defeat his attacker and make it home safe.'
