@@ -229,7 +229,7 @@ h5{
     transition: transform 0.7s ease;
     text-shadow: 1px 1px black;
     left: 0;
-    font-size: 26px;
+    font-size: 22px;
     justify-content: space-evenly;
   
     /* overflow: hidden; */
@@ -388,7 +388,7 @@ display: none;
     /* width: 25rem; */
     height:70rem;
     text-align: center;
-    margin-right:400px;
+    margin-right:200px;
 }
 .card-img-top {
     transform: scale(1);
@@ -445,7 +445,7 @@ h4{
 
 #comics{
 display: inline;
-padding: 25px;
+padding: 100px;
 
 }
 }
@@ -530,6 +530,7 @@ and (max-width:900px){
      align-items: center;
      width: 20rem;
      height: 58rem;
+     margin-left: 100px;
      text-align: center;
  }
  .card-img-top {
