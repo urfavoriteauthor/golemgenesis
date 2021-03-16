@@ -16,9 +16,7 @@ body {
 
 p {
     font-size: 100px;
-    color: sienna;
     border: 2px;
-    text-shadow: 2px 2px black;
     text-align: center;
 
 }
@@ -26,11 +24,20 @@ p {
 p:hover {
     transition: ease 0.7s;
     font-size: 130px;
-    text-shadow: 4px 4px black;
     border: 2px;
-    color: brown;
 }
 
+#cardgroup{
+    text-align: center;
+}
+
+#cardgroup img{
+    height: 600px;
+}
+
+.overflow {
+    overflow: hidden;
+  }
 #comictitle{
  right: 0;
  font-family: 'Bangers', cursive;
@@ -43,7 +50,6 @@ h1{
     text-shadow: 2px 2px black;
 }
 h4{
-    text-shadow: 2px 2px black;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -55,7 +61,6 @@ h4{
 }
 
 h5{
-    text-shadow: 2px 2px black;
     color: saddlebrown;
     font-family: 'Poiret One', cursive;
 }
@@ -76,10 +81,14 @@ h5{
     align-content: center;
     overflow: hidden;
     padding: 5%;
+    margin-right: auto;
 }
 #golem img{
-    height: 700px;
-    width: auto;
+    height: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 #comics {
     font-family: 'Bangers', cursive;
@@ -249,10 +258,6 @@ h5{
     
 }
 
-#slider{
-    width: 80%;
-overflow: hidden;
-}
 #slideOne {
     display: flex;
     background-color: black;
@@ -263,17 +268,6 @@ overflow: hidden;
     overflow: hidden;
 }
 
-#comics {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    min-height: auto;
-    align-items: center;
-    /* width: 25rem; */
-    height: 58rem;
-    text-align: center;
-}
 
 #comics:hover {
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
@@ -298,299 +292,17 @@ overflow: hidden;
 }
 
 .container-fluid .row {
-    padding-top: 6rem;
+    padding-top: 4rem;
     margin: 0 auto;
+    float: right;
 }
 
 .row{
-    padding: 100px;
+    margin: auto;
+    padding: 120px;
 }
 
-@media only screen 
-and (min-device-width:320px)
-and (max-width:480px)
-{
-    p{
-       font-size:50px; 
-       margin-left: 100px;
-    }
-    p:hover{
-        transition: ease 0.7s;
-    font-size: 60px;
-    text-shadow: 4px 4px black;
-    border: 2px;
-    color: brown;
-    }
-
-    body {
-        font-family: 'Bangers', cursive;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        background-image: url(../images/golemcollage.JPG);
-        background-size: 100vh;
-        background-repeat: repeat;
-        height: 1600px;
-    }
-
-    #home{
-        display: inline-block;
-        padding: 60px;
-        margin-left: 50px;
-    }
-#featured{
-    width: 75px;
-    display: inline-block;
-    text-align: center;
-    height: auto;
+.row col{
+   display: inline-block;
 }
 
-#featured:hover{
-margin:100px;
-
-}
-
-    #comictitle{
-        font-family: 'Bangers', cursive;
-       text-align: center;
-padding-left: 0;
-margin-right: 80px;
-       }
-       h4{
-display: none;
-}
-
-
-       #featured{
-           display: inline;
-        overflow:hidden;
-        color: white;
-        width: unset;
-        margin: 20px;
-        border: 5px 5px 5px 5px;
-        /* transform: scale(1.0);
-        transition: transform 0.5s ease; */
-        transform: none;
-        
-    
-    }
-#featured:hover{
-    transform: none;
-}
-  
-#comicbooks {
-    width: 100%;
-    padding: auto;
-    display: inline-flex;
-    justify-content: space-around;
-    min-height: auto;
-    align-items: center;
-    /* width: 25rem; */
-    height:70rem;
-    text-align: center;
-    margin-right:200px;
-}
-.card-img-top {
-    transform: scale(1);
-    transition: transform 0.5s ease;
-}
-
-.card-img-top:hover {
-    transform: scale(1.1);
-}
-
-.container-fluid .row {
-    padding-top: 2rem;
-    margin: 0 auto;
-}
-
-.row{
-    padding: 20px;
-}
-#slider{
-    width: 40%;
-overflow: hidden;
-}
-#slideOne {
-    width: 100%;
-    display: flex;
-    background-color: black;
-    text-shadow: 2px 2px white;
-    color: sienna;
-    font-family: 'Poiret One', cursive;
-    text-align: left;
-    overflow: hidden;
-}
-#golem{
-    display: inline;
-    padding: 250px;
-    font-size: smaller;
-}
-h4{
-    font-size: 10px;
-}
-.social{
-    width: 100%;
-}
-.social li{
-    font-size: 10px;
-}
-.social img{
-    width: 20px;
-}
-
-#social img{
-    width: 50%;
-}
-
-#comics{
-display: inline;
-padding: 100px;
-
-}
-}
-
-@media only screen 
-and (min-device-width:480px)
-and (max-width:900px){
-    p{
-        font-size:50px; 
-        margin-left: 100px;
-     }
-     p:hover{
-         transition: ease 0.7s;
-     font-size: 60px;
-     text-shadow: 4px 4px black;
-     border: 2px;
-     color: brown;
-     }
- 
-     body {
-         font-family: 'Bangers', cursive;
-         text-align: center;
-         font-size: 20px;
-         color: white;
-         background-image: url(../images/golemcollage.JPG);
-         background-size: 100vh;
-         background-repeat: repeat;
-         height: 1600px;
-     }
- 
-     #home{
-         display: inline-block;
-         padding: 60px;
-         margin-left: 50px;
-     }
- #featured{
-     width: 75px;
-     display: inline-block;
-     text-align: center;
-     height: auto;
- }
- 
- #featured:hover{
- margin:100px;
- 
- }
- 
-     #comictitle{
-         font-family: 'Bangers', cursive;
-        text-align: center;
- padding-left: 0;
- margin-right: 80px;
-        }
-        h4{
- display: none;
- }
- 
- 
-        #featured{
-            display: inline;
-         overflow:hidden;
-         color: white;
-         width: unset;
-         margin: 20px;
-         border: 5px 5px 5px 5px;
-         /* transform: scale(1.0);
-         transition: transform 0.5s ease; */
-         transform: none;
-         
-     
-     }
- #featured:hover{
-     transform: none;
- }
-   
- #comics {
-     width: 100%;
-     padding: 5px;
-     display: flex;
-     justify-content: space-evenly;
-     min-height: auto;
-     align-items: center;
-     width: 20rem;
-     height: 58rem;
-     margin-left: 100px;
-     text-align: center;
- }
- .card-img-top {
-     transform: scale(1);
-     transition: transform 0.5s ease;
- }
- 
- .card-img-top:hover {
-     transform: scale(1.1);
- }
- 
- .container-fluid .row {
-     padding-top: 2rem;
-     margin: 0 auto;
- }
- 
- .row{
-padding: 5px;
-margin-left: auto;
-
-
-}
- #slider{
-     width: 40%;
- overflow: hidden;
- }
- #slideOne {
-     width: 100%;
-     display: flex;
-     background-color: black;
-     text-shadow: 2px 2px white;
-     color: sienna;
-     font-family: 'Poiret One', cursive;
-     text-align: left;
-     overflow: hidden;
- }
- #golem{
-     display: inline;
-     padding: 250px;
-     font-size: smaller;
- }
- h4{
-     font-size: 10px;
- }
- .social{
-     width: 100%;
- }
- .social li{
-     font-size: 10px;
- }
- .social img{
-     width: 20px;
- }
- 
- #social img{
-     width: 50%;
- }
- 
- #comicbooks{
- display: flex;
- padding: 10px;
- }
- }

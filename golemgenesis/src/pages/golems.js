@@ -10,7 +10,7 @@ class Golems extends React.Component{
         return(
             <div>
                 <Navbar/>
-            <div id='golem'>
+            <div >
 
                 <p>Golems</p>
                 <h4>With over 100 different Golem types, there's no end to the excitement.</h4>
