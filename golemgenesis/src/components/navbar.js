@@ -7,7 +7,7 @@ class Navbar extends React.Component{
     render(){
         return(
 <nav>
-                 <ul className='nav flex-column ml-auto' id='navbar'>
+                 <ul className='nav ml-auto' id='navbar'>
               
             <Link to='/'>
                 <li className="nav-item">Home</li>
