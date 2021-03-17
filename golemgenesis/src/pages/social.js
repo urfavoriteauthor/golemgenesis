@@ -14,7 +14,7 @@ class Social extends React.Component{
             <div id='social'>
                 <Navbar/>
                 <p>Social Media for Golem Genesis</p>
-                <h4 style={{color:"white"}}>Follow us on Social Media for updates and new content!</h4>
+                <h3 style={{color:"white"}}>Follow us on Social Media for updates and new content!</h3>
                 <img id='cutter'src={Cutter}/>
             <nav>
                     <ul className='social'>

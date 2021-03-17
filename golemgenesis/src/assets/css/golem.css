@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 38px;
-    color: white;
     background-image: url(../images/golemcollage.JPG);
     background-size: 250vh;
     background-repeat: repeat;
@@ -18,6 +18,7 @@ p {
     font-size: 100px;
     border: 2px;
     text-align: center;
+    text-shadow: 2px 2px black;
 
 }
 
@@ -41,22 +42,45 @@ p:hover {
 #comictitle{
  right: 0;
  font-family: 'Bangers', cursive;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 text-align: center;
- padding-left: 300px;
- padding-top: -100px;
 }
 
+#comictitle:hover{
+    transition: ease 0.7s;
+    font-size: 130px;
+    border: 2px;  
+}
+#golemtitle:hover{
+    transition: ease 0.7s;
+    font-size: 130px;
+    border: 2px;  
+}
 h1{
     text-shadow: 2px 2px black;
 }
-h4{
+h3{
     font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px black;
 
 }
 
+h4{
+    text-shadow: 2px 2px black;
+}
+
+#abouttext{
+    font-family: 'Poppins', sans-serif;
+  
+}
 #comicsubtitle{
 
-    padding-left: 400px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+text-align: center;
 
 }
 
@@ -80,7 +104,7 @@ h5{
     justify-content: center;
     align-content: center;
     overflow: hidden;
-    padding: 15%;
+    padding: 5%;
     margin-right: auto;
 
 }
@@ -93,17 +117,27 @@ h5{
 }
 #comics {
     font-family: 'Bangers', cursive;
-    text-align: center;
-    font-size: 38px;
-    color: chocolate;
+ 
+  
 }
 
+#comictitle{
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+    color: white;
+
+}
+#golemtitle{
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
 #social {
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 38px;
-    color: chocolate;
-}
+    color: white;}
 
 #cutter{
     width: 800px;
@@ -122,7 +156,6 @@ h5{
     margin: 10px;
     bottom: 0;
     position: fixed;
-
   }
 
   #facebook {
@@ -201,15 +234,16 @@ h5{
   }
 #featured{
     overflow:hidden;
-    color: white;
     border: 50px 50px 50px 50px;
-    transform: scale(0.8);
-    transition: transform 0.5s ease;
+    transform: scale(0.9);
+    transition: transform 0.7s ease;
     margin-right: auto;
     margin-left: auto;
-
+    filter: grayscale(20%);
 }
-
+#aboutimg{
+filter: blur(100%);
+}
 #featured:hover{
     box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.253) !important;
     transform: scale(1);
@@ -220,11 +254,11 @@ h5{
     /* position: fixed; */
     color: saddlebrown;
     /* margin-left: auto; */
-    background-image: url(../images/CutterMidasSidecover.png);
+    background-image: url(../images/CutterMidasSidecover_edited.jpg);
     
     font-family: 'Bangers', cursive;
-    height: 100vh;
-    background-size: 100px;
+    height: 100px;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     /* float: left;
@@ -240,7 +274,7 @@ h5{
     transition: transform 0.7s ease;
     text-shadow: 1px 1px black;
     /* left: 0; */
-    font-size: 22px;
+    font-size: 36px;
     justify-content: space-evenly;
   
     /* overflow: hidden; */
@@ -249,19 +283,17 @@ h5{
     /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important; */
 
 }
-#navbar img{
-    rotate: 90deg;
-}
+
 #navbar li:hover {
     transition: ease 0.7s;
     color: saddlebrown;
     text-shadow: 2px 2px black;
-    font-size: 32px;
+    font-size: 48px;
   
     
     
 }
-
+/* 
 #slideOne {
     display: flex;
     background-color: black;
@@ -270,7 +302,7 @@ h5{
     font-family: 'Poiret One', cursive;
     text-align: left;
     overflow: hidden;
-}
+} */
 
 
 #comics:hover {
@@ -298,7 +330,7 @@ h5{
 .container-fluid .row {
     padding-top: 4rem;
     margin: 0 auto;
-    float: right;
+    /* float: right; */
 }
 
 .row{

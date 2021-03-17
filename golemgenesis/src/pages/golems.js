@@ -12,7 +12,7 @@ class Golems extends React.Component{
                 <Navbar/>
             <div >
 
-                <p>Golems</p>
+                <p id='golemtitle'>Golems</p>
                 <h4>With over 100 different Golem types, there's no end to the excitement.</h4>
                 <Slideshow/>
                 </div>
