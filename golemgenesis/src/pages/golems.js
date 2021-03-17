@@ -13,7 +13,7 @@ class Golems extends React.Component{
             <div >
 
                 <p id='golemtitle'>Golems</p>
-                <h4>With over 100 different Golem types, there's no end to the excitement.</h4>
+                <h3 id='golemsubtitle'>With over 100 different Golem types, there's no end to the excitement.</h3>
                 <Slideshow/>
                 </div>
 </div>

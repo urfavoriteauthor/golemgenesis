@@ -32,8 +32,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Diamond Warrior Golem</h3>
+                <p>Cutter</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -43,8 +43,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Brimstone Golem</h3>
+                <p>Pompeii</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -54,8 +54,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Island Golem</h3>
+                <p>Pacifica</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -65,8 +65,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Desert shadow golem</h3>
+                <p>Sahara</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -76,8 +76,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Star Destroyer Golem</h3>
+                <p>Binary</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -87,8 +87,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Planet Breaker Golem</h3>
+                <p>Asteros</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -99,7 +99,7 @@ import Carousel from 'react-bootstrap/Carousel'
               />
               <Carousel.Caption>
                 <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Lunar</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -109,8 +109,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Blizzard Golem</h3>
+                <p>Avalanche</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -120,8 +120,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Boulder Golem</h3>
+                <p>Everest</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -131,8 +131,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Refracting Crystal Golem</h3>
+                <p>Quartz</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -142,8 +142,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The ThunderGod Golem</h3>
+                <p>Raijin</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -153,8 +153,8 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>The Golden King Golem</h3>
+                <p>Midas</p>
               </Carousel.Caption>
             </Carousel.Item>
             
