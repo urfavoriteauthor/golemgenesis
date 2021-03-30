@@ -455,4 +455,7 @@ filter: blur(100%);
     #cardgroup h4{
         font-size: 16px;
     }
+    #cutter{
+        width: 500px;
+    }
 }
