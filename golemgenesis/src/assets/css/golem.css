@@ -351,3 +351,108 @@ filter: blur(100%);
    display: inline-block;
 }
 
+@media screen and (max-width: 600px){
+
+    #navbar{
+        background-size: 800px;
+    }
+   #navbar li{
+        width: 50%;
+        font-size: 20px;
+    }
+    #navbar li:hover {
+        transition: ease 0.7s;
+        color: saddlebrown;
+        text-shadow: 2px 2px black;
+        font-size: 24px;
+         
+    }
+
+    p {
+        font-size: 40px;
+        border: 2px;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    
+    }
+    p:hover {
+        font-size: 44px;
+        border: 2px;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    
+    }
+    #golemtitle {
+        font-size: 40px;
+        border: 2px;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    
+    }
+    #golemtitle:hover {
+        font-size: 48px;
+        border: 2px;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    
+    }
+    #comictitle {
+        font-size: 40px;
+        border: 2px;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    
+    }
+    #comictitle:hover {
+        font-size: 48px;
+        border: 2px;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    
+    }
+    .social {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        min-height: auto;
+        align-items: center;
+        border: auto;
+        font-family: 'Raleway', sans-serif;
+        font-size:10px;
+        margin: 10px;
+        bottom: 0;
+        position: fixed;
+      }
+
+      .social img {
+      width: 20px;
+      }
+
+      #featured{
+        overflow:hidden;
+        border: 50px 50px 50px 50px;
+        transform: scale(0.9);
+        transition: transform 0.7s ease;
+        margin-right: auto;
+        margin-left: auto;
+        filter: grayscale(20%);
+    }
+    #aboutimg{
+    filter: blur(100%);
+
+    }
+    #featured:hover{
+        box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.253) !important;
+        transform: scale(1);
+        transition: transform 0.5s ease;
+    }
+
+    #cardgroup img{
+        height: auto;
+    }
+
+    #cardgroup h4{
+        font-size: 16px;
+    }
+}
