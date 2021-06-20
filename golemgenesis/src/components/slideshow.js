@@ -98,7 +98,7 @@ import Carousel from 'react-bootstrap/Carousel'
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
+                <h3>The Full Moon Golem</h3>
                 <p>Lunar</p>
               </Carousel.Caption>
             </Carousel.Item>

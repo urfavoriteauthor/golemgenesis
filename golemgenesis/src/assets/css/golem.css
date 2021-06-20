@@ -357,7 +357,9 @@ filter: blur(100%);
         background-size: 800px;
     }
    #navbar li{
-        width: 50%;
+       display: flex;
+       justify-content: space-around;
+        width: 40%;
         font-size: 20px;
     }
     #navbar li:hover {
@@ -458,4 +460,10 @@ filter: blur(100%);
     #cutter{
         width: 500px;
     }
+
+    #cardgroup{
+        display: inline;
+        width: 320px;
+
+}
 }
